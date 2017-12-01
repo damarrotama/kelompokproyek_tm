@@ -81,6 +81,11 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
         //mSwipeRefreshWidget.setColorScheme(R.color.color1);
         mSwipeRefreshWidget.setOnRefreshListener(this);
 
+        ll_not_found = (LinearLayout) view.findViewById(R.id.ll_not_found);
+        ll_pengumuman = (LinearLayout) view.findViewById(R.id.ll_pengumuman);
+        progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
+
+
         arrayAdapter = new pengumumanAdapter(getActivity(), pengumumanList);
         listView = (ListView) view.findViewById(android.R.id.list);
         listView.setAdapter(arrayAdapter);

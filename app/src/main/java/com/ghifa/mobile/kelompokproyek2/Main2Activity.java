@@ -144,6 +144,8 @@ public class Main2Activity extends AppCompatActivity
                     .show();
         }
 
+        transaksiFragment.commitAllowingStateLoss();
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
