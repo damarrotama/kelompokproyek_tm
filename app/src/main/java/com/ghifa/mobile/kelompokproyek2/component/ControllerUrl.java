@@ -8,6 +8,8 @@ import android.content.Context;
 
 public class ControllerUrl {
 
+    public String TAG_SUKSES        = "sukses";
+
     private String host = "";
     private String URL = "";
     public int IS_LOGIN = 1;
@@ -25,6 +27,9 @@ public class ControllerUrl {
 
     public String getURLLogin(){
         return this.URL + "get-user.php";
+    }
+    public String getURLPengumuman(){
+        return this.URL + "get-pengumuman.php";
     }
 
 }

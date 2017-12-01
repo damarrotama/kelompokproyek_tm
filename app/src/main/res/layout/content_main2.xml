@@ -8,4 +8,11 @@
     tools:context="com.ghifa.mobile.kelompokproyek2.Main2Activity"
     tools:showIn="@layout/app_bar_main2">
 
+    <FrameLayout
+        android:id="@+id/drawer_kontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_gravity="center" />
+
 </android.support.constraint.ConstraintLayout>
