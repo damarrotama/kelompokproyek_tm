@@ -26,7 +26,7 @@ public class ControllerUrl {
 //    }
 
     void setURL(){
-        this.URL = "http://dpa.web.id/absensi/api/";
+        this.URL = "http://dpa.web.id/api/";
     }
 
     public String getURLLogin(){
