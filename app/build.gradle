@@ -22,7 +22,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation 'com.google.firebase:firebase-database:11.0.4'
     implementation 'com.android.support:design:26.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
@@ -37,8 +36,12 @@ dependencies {
     compile 'com.daimajia.swipelayout:library:1.2.0@aar'
     compile 'com.beardedhen:androidbootstrap:2.1.0'
     compile 'me.leolin:ShortcutBadger:1.1.6@aar'
-
     compile 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    compile 'com.google.firebase:firebase-core:11.0.1'
+    compile 'com.google.firebase:firebase-messaging:11.0.1'
+    compile 'com.google.firebase:firebase-auth:11.0.1'
+    compile 'com.google.firebase:firebase-database:11.0.1'
 }
 
 

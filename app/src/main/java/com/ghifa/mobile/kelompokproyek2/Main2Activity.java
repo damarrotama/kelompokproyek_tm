@@ -113,7 +113,7 @@ public class Main2Activity extends AppCompatActivity
 
             transaksiFragment.replace(R.id.drawer_kontent, fragmentDepan);
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_berita) {
 
         } else if (id == R.id.nav_pengumuman) {
 

@@ -9,17 +9,13 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Dashboard" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_berita"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Berita" />
         <item
             android:id="@+id/nav_pengumuman"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Pengumuman" />
-        <!--<item-->
-            <!--android:id="@+id/nav_manage"-->
-            <!--android:icon="@drawable/ic_menu_manage"-->
-            <!--android:title="Tools" />-->
     </group>
 
     <item android:title="Other">
