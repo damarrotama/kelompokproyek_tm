@@ -377,7 +377,6 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
                 holder.tvTanggal_mulai          = (TextView) convertView.findViewById(R.id.tvTanggal);
                 holder.tvTanggal_mulai          = (TextView) convertView.findViewById(R.id.tvTanggal);
                 holder.tvJudul                  = (TextView) convertView.findViewById(R.id.tvJudul);
-                // holder.tvPengumuman             = (TextView) convertView.findViewById(R.id.tvPengumuman);
                 holder.tvRight                   = (TextView) convertView.findViewById(R.id.tvRight);
                 holder.LL_pengumuman            = (LinearLayout) convertView.findViewById(R.id.LL_pengumuman);
 
