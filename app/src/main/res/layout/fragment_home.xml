@@ -1,6 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghifa.mobile.kelompokproyek2.Main2Activity">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:background="#ffffff"
+        android:layout_gravity="top" >
+        <!--android:background="@color/colorPrimary"-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:padding="16dp"
+            android:background="@drawable/card_background_selector"
+            android:descendantFocusability="afterDescendants"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:text="Selamat datang,"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView14"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="190dp"
+                android:layout_height="163dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.35"
+                android:src="@drawable/science" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nama"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/tvNama"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="E-mail"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/tvEmail"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/tvTglLahir"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

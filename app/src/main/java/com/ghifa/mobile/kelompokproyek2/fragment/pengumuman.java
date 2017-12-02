@@ -197,6 +197,10 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
 
             JSONObject response = new JSONObject(postResponse);
 
+
+
+
+
             jikaSukses              = response.getInt(link_url.TAG_SUKSES);
 
             Log.e("onSuccess", Integer.toString(jikaSukses));
@@ -238,9 +242,11 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
         } catch (IOException e) {
             data = false;
             Log.e("status sqlite", "gagal simpan sqlite catch 1");
+            Log.d("IOException", e.toString());
         } catch (JSONException e) {
             data = false;
             Log.e("status sqlite", "gagal simpan sqlite catch 2");
+            Log.d("JSONException", e.toString());
         }
         return data;
     }

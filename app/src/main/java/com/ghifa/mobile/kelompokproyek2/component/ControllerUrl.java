@@ -21,8 +21,12 @@ public class ControllerUrl {
 
         setURL();
     }
+//    void setURL(){
+//        this.URL = "http://192.168.1.87/paw/lowker/admpanel/api/";
+//    }
+
     void setURL(){
-        this.URL = "http://192.168.1.87/paw/lowker/admpanel/api/";
+        this.URL = "http://dpa.web.id/absensi/api/";
     }
 
     public String getURLLogin(){

@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
                      */
                     setSession.putInt(link_url.TAG_IS_LOGIN, response.getInt("sukses"));
                     setSession.putString("email", response.getString("email"));
+                    setSession.putString("tgllahir", response.getString("tgllahir"));
                     setSession.putString("nama", response.getString("name"));
                     setSession.apply();
                 }
