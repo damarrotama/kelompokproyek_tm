@@ -6,4 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="info_sukses_daftar">Sukses!</string>
+    <string name="sukses_daftar_desc">Akun telah berhasil dibuat!</string>
+
 </resources>

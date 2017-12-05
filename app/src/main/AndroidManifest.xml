@@ -24,7 +24,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".PengumumanActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- Defining Services -->
         <service android:name=".service.MyFirebaseMessagingService">
@@ -38,6 +38,10 @@
             </intent-filter>
         </service>
 
+        <activity android:name=".RegisterActivity"></activity>
+        <activity
+            android:name=".SuksesDaftarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

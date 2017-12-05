@@ -137,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                      * menyimpan session login
                      */
                     setSession.putInt(link_url.TAG_IS_LOGIN, response.getInt("sukses"));
+                    setSession.putString("idpengguna", response.getString("idpengguna"));
                     setSession.putString("email", response.getString("email"));
                     setSession.putString("tgllahir", response.getString("tgllahir"));
                     setSession.putString("nama", response.getString("name"));
@@ -249,8 +250,12 @@ public class MainActivity extends AppCompatActivity {
             mAuthTask.execute((Void) null);
 
         }
+    }
 
-
+    public void Register(View arg0) {
+        Intent utama = new Intent(MainActivity.this, RegisterActivity.class);
+        startActivity(utama);
+        finish();
     }
 
     // validating email id

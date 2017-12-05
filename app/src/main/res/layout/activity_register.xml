@@ -7,24 +7,28 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#ffffff"
+        android:background="@color/colorBackground"
         android:padding="40dp">
 
         <ImageView
             android:layout_width="280dp"
             android:layout_height="120dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
             android:src="@drawable/proyek"
             android:layout_marginTop="10dp"
             android:paddingLeft="0dp"
-            android:drawablePadding="5dp"/>
+            android:drawablePadding="5dp"
+            android:textColorHint="#000"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
+            android:inputType="text"
             android:ems="10"
-            android:id="@+id/username"
+            android:id="@+id/nama"
             android:hint="Username"
+            android:layout_marginTop="10dp"
             android:textColor="#000"
             android:paddingLeft="0dp"
             android:drawablePadding="5dp"
@@ -33,10 +37,25 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:digits="0123456789."
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/password"
-            android:hint="Password"
+            android:hint="password"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:paddingLeft="0dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:hint="E-mail"
+            android:layout_marginTop="10dp"
             android:textColor="#000"
             android:paddingLeft="0dp"
             android:drawablePadding="5dp"
@@ -46,24 +65,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="MASUK"
-            android:id="@+id/button"
+            android:text="Daftar"
             android:textColor="#ffffff"
+            android:id="@+id/button"
             android:background="@drawable/selector_xml_btn_yellow"
             android:layout_gravity="center_horizontal"
-            android:onClick="checkLogin"/>
+            android:onClick="checkBorang"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Daftar?"
-            android:id="@+id/register"
+            android:text="Login"
+            android:id="@+id/textView3"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:textColor="#000"
-            android:onClick="Register"/>
-
+            android:onClick="url_login"/>
 
     </LinearLayout>
 </ScrollView>

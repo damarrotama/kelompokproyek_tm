@@ -35,5 +35,8 @@ public class ControllerUrl {
     public String getURLPengumuman(){
         return this.URL + "get-pengumuman.php";
     }
+    public String getRegisterUserPOST(){
+        return this.URL + "get-register-post.php";
+    }
 
 }

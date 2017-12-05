@@ -186,7 +186,12 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
         try {
             FormBody.Builder formBody = new FormBody.Builder();
 
+            String idpengguna = session.getString("idpengguna", "");
+
+            Log.e("idpengguna", idpengguna);
+
             formBody.add("email", "-");
+            formBody.add("idpengguna", idpengguna);
 
             RequestBody body = formBody.build();
 
@@ -196,9 +201,6 @@ public class pengumuman extends Fragment implements SwipeRefreshLayout.OnRefresh
             //Log.e("onSuccess", postResponse);
 
             JSONObject response = new JSONObject(postResponse);
-
-
-
 
 
             jikaSukses              = response.getInt(link_url.TAG_SUKSES);
