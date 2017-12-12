@@ -113,17 +113,13 @@ public class Main2Activity extends AppCompatActivity
 
             transaksiFragment.replace(R.id.drawer_kontent, fragmentDepan);
 
-        } else if (id == R.id.nav_berita) {
-
         } else if (id == R.id.nav_pengumuman) {
 
             Log.d("tes", "btn pengumuman");
             pengumuman pengumuman = new pengumuman();
             transaksiFragment.replace(R.id.drawer_kontent, pengumuman);
 
-        }  else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_exit) {
+        }  else if (id == R.id.nav_exit) {
             new AlertDialog.Builder(Main2Activity.this)
                     .setMessage("Keluar dari aplikasi ?")
                     .setCancelable(false)
